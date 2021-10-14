@@ -5,10 +5,10 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "node server",
-    "dev": "nodemon server",
-    "data:import": "node seeder",
-    "data:destroy": "node seeder -d"
+    "start": "node backend/server",
+    "dev": "nodemon backend/server",
+    "data:import": "node backend/seeder",
+    "data:destroy": "node backend/seeder -d"
   },
   "author": "eliashezron",
   "license": "MIT",
