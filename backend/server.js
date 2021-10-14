@@ -55,8 +55,8 @@ app.use(cors())
 // app.use(express.static(__dirname + '/public'))
 app.use("/public", express.static(path.join(__dirname, "/public")))
 
-// app.get('/', (req, res)=>{
-//     res.send('this is the home page')
+ app.get('/', (req, res)=>{
+    res.send('this is the home page')
 // })
 if(process.env.NODE_ENV === 'development'){
     app.use(morgan('dev'))
